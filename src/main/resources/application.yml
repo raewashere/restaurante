@@ -1,13 +1,11 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/restaurante_db
-    username: root
-    password: root
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:postgresql://localhost:5432/restaurante_db
+    username: usuario
+    password: contraseña
+    driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
       ddl-auto: update
-    show-sql: true
-
-server:
-  port: 8080
+    properties:
+      hibernate.dialect: org.hibernate.dialect.PostgreSQLDialect
