@@ -5,12 +5,11 @@ import lombok.Data;
 
 @Data
 @Entity
+@Table(name = "proveedor")
 public class Proveedor {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id_proveedor;
+    private Long id;
 
-    @Column(nullable = false, length = 100)
     private String nombre;
 }

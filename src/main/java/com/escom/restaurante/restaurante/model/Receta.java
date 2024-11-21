@@ -5,13 +5,12 @@ import lombok.Data;
 
 @Data
 @Entity
+@Table(name = "receta")
 public class Receta {
-
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Column(nullable = false, unique = true)
     private String nombre;
 
     @Column(length = 500)
