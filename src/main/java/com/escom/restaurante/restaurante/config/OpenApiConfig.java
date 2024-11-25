@@ -14,7 +14,7 @@ public class OpenApiConfig {
                 .info(new Info()
                         .title("API Restaurante")
                         .version("1.7.0")
-                        .description("Documentación de la API usando OpenAPI/Swagger"));
+                        .description("Los restaurantes enfrentan desafíos al gestionar recetas, controlar inventarios de ingredientes y garantizar que los platos se preparen de manera consistente"));
     }
 
 }
