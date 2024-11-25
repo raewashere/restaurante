@@ -1,3 +1,4 @@
+com\escom\restaurante\restaurante\config\OpenApiConfig.class
 com\escom\restaurante\restaurante\query\MenuQuery.class
 com\escom\restaurante\restaurante\repository\MenuRepository.class
 com\escom\restaurante\restaurante\model\Ingrediente.class
