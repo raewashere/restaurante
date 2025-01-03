@@ -17,6 +17,7 @@ com\escom\restaurante\restaurante\model\Proveedor.class
 com\escom\restaurante\restaurante\repository\ProveedorRepository.class
 com\escom\restaurante\restaurante\query\ProveedorQuery.class
 com\escom\restaurante\restaurante\service\MenuService.class
+com\escom\restaurante\restaurante\config\CorsConfig.class
 com\escom\restaurante\restaurante\controller\MenuController.class
 com\escom\restaurante\restaurante\repository\PedidoRepository.class
 com\escom\restaurante\restaurante\controller\PedidoController.class
